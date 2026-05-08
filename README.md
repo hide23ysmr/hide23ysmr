@@ -41,14 +41,14 @@
 <br><br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:08080c,30:6e50dc,70:00e5ff,100:08080c&height=80&section=header&text=CONTRIBUTION%20SNAKE%20GRID&fontSize=36&fontColor=ffffff&stroke=00e5ff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="CONTRIBUTION SNAKE GRID" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:08080c,30:6e50dc,70:00e5ff,100:08080c&height=80&section=header&text=CONTRIBUTION%20PAC-MAN%20GRID&fontSize=36&fontColor=ffffff&stroke=00e5ff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="CONTRIBUTION PAC-MAN GRID" />
 </div>
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/github-snake.svg" />
-  <img alt="github snake contribution" src="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/pacman-contribution-graph.svg" />
+  <img alt="github pacman contribution" src="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/pacman-contribution-graph.svg" />
 </picture>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:08080c,30:6e50dc,70:00e5ff,100:08080c&height=80&section=footer" width="100%" alt="footer wave" />
