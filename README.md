@@ -1,8 +1,19 @@
-## Hi there 👋
-
 <!--
 **hide23ysmr/hide23ysmr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
+
+<h1 align="center">Hi 👋, I'm hide23ysmr</h1>
+
+<div align="center">
+  <a href="https://github.com/hide23ysmr">
+    <img src="https://github.com/hide23ysmr.png" width="280" alt="hide23ysmr avatar" style="border-radius: 50%;" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=hide23ysmr&label=Profile%20views&color=6eb9f2&style=flat" alt="profile views" />
+</div>
+<br>
 
 <a href="https://github.com/hide23ysmr">
   <img src="https://media.tenor.com/zhIZszouG8QAAAAi/line-divider.gif" width="100%" height="2px"/>
