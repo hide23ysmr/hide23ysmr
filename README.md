@@ -25,11 +25,11 @@
 
 <div align="center">
   <img loading="lazy" width="396" src="https://github-readme-streak-stats.herokuapp.com?user=hide23ysmr&hide_border=true&background=01102d&stroke=6eb9f2&ring=41c350&fire=41c350&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=41c350&sideLabels=41c350&dates=ffffff" alt="github streak stats" />
-  <img loading="lazy" width="396" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hide23ysmr&rank_icon=percentile&show_icons=true&include_all_commits=true&hide_title=true&count_private=true&line_height=29&title_color=41c350&icon_color=41c350&bg_color=01102d&text_color=ffffff&border_color=6eb9f2&hide_border=true" alt="github stats" />
+  <img loading="lazy" width="396" src="https://github-readme-stats-mu-sable-74.vercel.app/api?username=hide23ysmr&rank_icon=percentile&show_icons=true&include_all_commits=true&hide_title=true&count_private=true&line_height=29&title_color=41c350&icon_color=41c350&bg_color=01102d&text_color=ffffff&border_color=6eb9f2&hide_border=true" alt="github stats" />
 </div>
 
 <div align="center">
-  <img loading="lazy" width="325" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hide23ysmr&hide_title=true&count_private=true&title_color=41c350&text_color=ffffff&icon_color=6eb9f2&bg_color=01102d&langs_count=8&layout=compact&border_color=6eb9f2&hide_border=true" alt="most used languages" />
+  <img loading="lazy" width="325" src="https://github-readme-stats-mu-sable-74.vercel.app/api/top-langs/?username=hide23ysmr&hide_title=true&count_private=true&title_color=41c350&text_color=ffffff&icon_color=6eb9f2&bg_color=01102d&langs_count=8&layout=compact&border_color=6eb9f2&hide_border=true" alt="most used languages" />
 </div>
 <br><br>
 
