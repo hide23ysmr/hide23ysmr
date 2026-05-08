@@ -16,7 +16,7 @@
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=S%20T%20A%20T%20S&fontSize=36&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="STATS" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:08080c,30:6e50dc,70:00e5ff,100:08080c&height=80&section=header&text=S%20T%20A%20T%20S&fontSize=36&fontColor=ffffff&stroke=00e5ff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="STATS" />
 </div>
 <br>
 
@@ -31,7 +31,7 @@
 <br><br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=G%20R%20A%20P%20H&fontSize=36&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="GRAPH" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:08080c,30:6e50dc,70:00e5ff,100:08080c&height=80&section=header&text=G%20R%20A%20P%20H&fontSize=36&fontColor=ffffff&stroke=00e5ff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="GRAPH" />
 </div>
 <br>
 
@@ -41,7 +41,7 @@
 <br><br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=CONTRIBUTION%20SNAKE%20GRID&fontSize=36&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="CONTRIBUTION SNAKE GRID" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:08080c,30:6e50dc,70:00e5ff,100:08080c&height=80&section=header&text=CONTRIBUTION%20SNAKE%20GRID&fontSize=36&fontColor=ffffff&stroke=00e5ff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="CONTRIBUTION SNAKE GRID" />
 </div>
 <br>
 
