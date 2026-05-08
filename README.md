@@ -41,7 +41,7 @@
 <br><br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=CONTRIBUTION%20SNAKE%20GRID&fontSize=24&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="60%" alt="CONTRIBUTION SNAKE GRID" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=CONTRIBUTION%20SNAKE%20GRID&fontSize=36&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="80%" alt="CONTRIBUTION SNAKE GRID" />
 </div>
 <br>
 
