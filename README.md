@@ -26,12 +26,6 @@
 [![github graph](https://github-readme-activity-graph.vercel.app/graph?username=hide23ysmr&theme=react-dark&hide_border=true&area=true&bg_color=01102d&color=6eb9f2&line=41c350&point=ffffff)](https://github.com/hide23ysmr)
 
 ![3D Contributions Graph](https://github.com/hide23ysmr/hide23ysmr/raw/main/profile-3d-contrib/profile-night-rainbow.svg)
-
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=hide23ysmr&theme=algolia" alt="hide23ysmr" />
-  </a>
-</p>
 <br><br>
 
 <a href="https://github.com/hide23ysmr">
