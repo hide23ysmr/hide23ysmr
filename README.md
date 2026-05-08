@@ -15,7 +15,7 @@
   <a href="https://github.com/hide23ysmr">
     <img src="https://img1.picmix.com/output/stamp/original/9/8/7/3/473789_94059.gif" width="22" height="22" align="right"/>
   </a>
-  【﻿S T A T S】
+  <img src="https://readme-typing-svg.demolab.com?font=Geo&weight=500&size=32&duration=2000&pause=99999&color=ffffff&center=true&vCenter=true&repeat=false&width=400&height=50&lines=%E3%80%90S+T+A+T+S%E3%80%91" alt="STATS" />
 </h3>
 
 <a href="https://github.com/hide23ysmr">
@@ -44,7 +44,7 @@
   <a href="https://github.com/hide23ysmr">
     <img src="https://img1.picmix.com/output/stamp/original/9/8/7/3/473789_94059.gif" width="22" height="22" align="right"/>
   </a>
-  【﻿G R A P H】
+  <img src="https://readme-typing-svg.demolab.com?font=Geo&weight=500&size=32&duration=2000&pause=99999&color=ffffff&center=true&vCenter=true&repeat=false&width=400&height=50&lines=%E3%80%90G+R+A+P+H%E3%80%91" alt="GRAPH" />
 </h3>
 
 <a href="https://github.com/hide23ysmr">
@@ -68,7 +68,7 @@
   <a href="https://github.com/hide23ysmr">
     <img src="https://img1.picmix.com/output/stamp/original/9/8/7/3/473789_94059.gif" width="22" height="22" align="right"/>
   </a>
-  【﻿C O N T R I B U T I O N　S N A K E　G R I D】
+  <img src="https://readme-typing-svg.demolab.com?font=Geo&weight=500&size=28&duration=3500&pause=99999&color=ffffff&center=true&vCenter=true&repeat=false&width=900&height=50&lines=%E3%80%90C+O+N+T+R+I+B+U+T+I+O+N+%E3%80%80S+N+A+K+E+%E3%80%80G+R+I+D%E3%80%91" alt="CONTRIBUTION SNAKE GRID" />
 </h3>
 
 <a href="https://github.com/hide23ysmr">
