@@ -51,6 +51,4 @@
   <img alt="github snake contribution" src="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/github-snake.svg" />
 </picture>
 
-<a href="https://github.com/hide23ysmr">
-  <img src="https://media.tenor.com/zhIZszouG8QAAAAi/line-divider.gif" width="100%" height="2px"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=footer" width="100%" alt="footer wave" />
