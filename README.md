@@ -15,7 +15,9 @@
 </div>
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=140&section=header&text=S%20T%20A%20T%20S&fontSize=70&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%" alt="STATS" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=S%20T%20A%20T%20S&fontSize=36&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="60%" alt="STATS" />
+</div>
 <br>
 
 <div align="center">
@@ -28,7 +30,9 @@
 </div>
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=140&section=header&text=G%20R%20A%20P%20H&fontSize=70&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%" alt="GRAPH" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=G%20R%20A%20P%20H&fontSize=36&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="60%" alt="GRAPH" />
+</div>
 <br>
 
 [![github graph](https://github-readme-activity-graph.vercel.app/graph?username=hide23ysmr&theme=react-dark&area=true&bg_color=08080c&color=6eb9f2&line=41c350&point=ffffff&border_color=6e50dc&radius=16)](https://github.com/hide23ysmr)
@@ -36,7 +40,9 @@
 ![3D Contributions Graph](https://github.com/hide23ysmr/hide23ysmr/raw/main/profile-3d-contrib/profile-night-rainbow.svg)
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=140&section=header&text=CONTRIBUTION%20SNAKE%20GRID&fontSize=50&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%" alt="CONTRIBUTION SNAKE GRID" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:08080c,30:6e50dc,70:6e50dc,100:08080c&height=80&section=header&text=CONTRIBUTION%20SNAKE%20GRID&fontSize=24&fontColor=ffffff&fontAlignY=58&animation=fadeIn&fontFamily=Orbitron" width="60%" alt="CONTRIBUTION SNAKE GRID" />
+</div>
 <br>
 
 <picture>
