@@ -3,7 +3,6 @@
 -->
 
 <h1 align="center">Hi 👋, I'm hide23ysmr</h1>
-<h3 align="center">Backend &amp; Infrastructure Engineer</h3>
 
 <div align="center">
   <a href="https://github.com/hide23ysmr">
