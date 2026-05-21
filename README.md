@@ -64,7 +64,7 @@
 <br>
 
 <div align="center">
-  <img loading="lazy" width="396" src="https://streak-stats.demolab.com?user=hide23ysmr&background=45,08080c,1a0a3e,08080c&border=6e50dc&border_radius=16&stroke=6e50dc&ring=41c350&fire=41c350&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=41c350&sideLabels=41c350&dates=ffffff" alt="github streak stats" />
+  <img loading="lazy" width="396" src="https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/streak-stats.svg" alt="github streak stats" />
   <img loading="lazy" width="396" src="https://github-readme-stats-mu-sable-74.vercel.app/api?username=hide23ysmr&rank_icon=percentile&show_icons=true&include_all_commits=true&hide_title=true&count_private=true&line_height=29&title_color=41c350&icon_color=41c350&bg_color=45,08080c,1a0a3e,08080c&text_color=ffffff&border_color=6e50dc&border_radius=16" alt="github stats" />
 </div>
 
