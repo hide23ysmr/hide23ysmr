@@ -1,4 +1,4 @@
-name: Generate Pac-Man
+name: Generate Profile Assets
 
 on:
   schedule:
@@ -14,12 +14,32 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Generate pacman SVGs
         uses: abozanona/pacman-contribution-graph@2.4.0
         with:
           github_user_name: ${{ github.repository_owner }}
+
+      - name: Generate streak stats SVG
+        run: |
+          set -e
+          mkdir -p dist
+          URL="https://streak-stats.demolab.com?user=${{ github.repository_owner }}&background=45,08080c,1a0a3e,08080c&border=6e50dc&border_radius=16&stroke=6e50dc&ring=41c350&fire=41c350&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=41c350&sideLabels=41c350&dates=ffffff"
+          for i in 1 2 3 4 5; do
+            if curl -fsSL --max-time 45 "$URL" -o dist/streak-stats.svg && [ -s dist/streak-stats.svg ]; then
+              echo "Got streak stats on attempt $i ($(wc -c < dist/streak-stats.svg) bytes)"
+              break
+            fi
+            echo "Attempt $i failed, retrying in 5s..."
+            rm -f dist/streak-stats.svg
+            sleep 5
+          done
+          if [ ! -s dist/streak-stats.svg ]; then
+            echo "::error::Failed to fetch streak stats after 5 attempts"
+            exit 1
+          fi
+          ls -la dist/
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
