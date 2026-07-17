@@ -17,10 +17,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      # Fork of yoshi389111/github-profile-3d-contrib@v0.9.3, adding
+      # LANG_SOURCE and COUNT_PRIVATE. The upstream pie and radar charts only
+      # ever see public repositories, whatever token they are given.
+      - uses: hide23ysmr/github-profile-3d-contrib@v0.9.3-private.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # A PAT with the `repo` scope. The default secrets.GITHUB_TOKEN may
+          # only read this repository, so the charts below would come out
+          # empty with it.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          # weigh pie chart languages by code size, private repositories included
+          LANG_SOURCE: repository
+          # count private contributions on the radar chart
+          COUNT_PRIVATE: 'true'
 
       - name: Commit & Push
         run: |
