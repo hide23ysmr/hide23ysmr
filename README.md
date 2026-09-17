@@ -78,7 +78,7 @@
 </div>
 <br>
 
-[![github graph](https://github-readme-activity-graph.vercel.app/graph?username=hide23ysmr&theme=react-dark&area=true&bg_color=08080c&color=6eb9f2&line=41c350&point=ffffff&border_color=6e50dc&radius=16)](https://github.com/hide23ysmr)
+[![github graph](https://raw.githubusercontent.com/hide23ysmr/hide23ysmr/output/activity-graph.svg)](https://github.com/hide23ysmr)
 
 ![3D Contributions Graph](https://github.com/hide23ysmr/hide23ysmr/raw/main/profile-3d-contrib/profile-night-rainbow.svg)
 <br><br>
