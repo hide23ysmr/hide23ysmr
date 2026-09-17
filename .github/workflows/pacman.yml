@@ -41,6 +41,55 @@ jobs:
           fi
           ls -la dist/
 
+      # The public github-readme-activity-graph.vercel.app deployment answers
+      # 402 DEPLOYMENT_DISABLED, so the graph is rendered from source here.
+      - name: Checkout activity graph source
+        uses: actions/checkout@v4
+        with:
+          repository: Ashutosh00710/github-readme-activity-graph
+          ref: 0962e9461de815933d462e8b98c7ce566cada8fb
+          path: activity-graph
+
+      # Upstream's package-lock.json is rejected by npm 11's `npm ci`; Node 22 ships npm 10.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate activity graph SVG
+        working-directory: activity-graph
+        env:
+          # A PAT with the `repo` scope, so private contributions are counted.
+          TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}
+        run: |
+          set -e
+          npm ci --no-audit --no-fund
+          npm run build
+          PORT=5100 node dist/main.js > server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
+          for i in $(seq 1 30); do
+            curl -fsS -o /dev/null http://127.0.0.1:5100/ && break
+            sleep 1
+          done
+          OUT="$GITHUB_WORKSPACE/dist/activity-graph.svg"
+          URL="http://127.0.0.1:5100/graph?username=${{ github.repository_owner }}&theme=react-dark&area=true&bg_color=08080c&color=6eb9f2&line=41c350&point=ffffff&border_color=6e50dc&radius=16"
+          for i in 1 2 3 4 5; do
+            # Failures still come back as 200 with an error card, so require a rendered chart line.
+            if curl -fsSL --max-time 45 "$URL" -o "$OUT" && grep -q 'class="ct-line' "$OUT"; then
+              echo "Got activity graph on attempt $i ($(wc -c < "$OUT") bytes)"
+              break
+            fi
+            echo "Attempt $i failed, retrying in 5s..."
+            rm -f "$OUT"
+            sleep 5
+          done
+          if [ ! -s "$OUT" ]; then
+            grep -m 5 'error:' server.log || true
+            echo "::error::Failed to generate activity graph after 5 attempts"
+            exit 1
+          fi
+          ls -la "$GITHUB_WORKSPACE/dist/"
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
